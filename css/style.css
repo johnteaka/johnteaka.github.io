@@ -366,9 +366,51 @@ p, button, div {
 /* Website
 ----------------------------------------------- */
 
-.slide-full {
-    width: 90%;
+.section-one {
+    width: 100%;
+    height: auto;
+    background-color: #7FC6A4;
 }
+
+.website-row {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-subtitle {
+    width: 100%;
+    height: auto;
+    margin:  3% 0;
+}
+
+.page-text {
+    text-align: center;
+    width: 70%;
+    margin: 3% auto;
+}
+
+.slide-half__website {
+  margin:10px;
+  width: 46%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.slide-half__website a img {
+    width: 100%;
+    height: 300px;
+}
+
+.slide-half__website a img:hover {
+    transition: opacity 1s ease;
+    opacity: 0.4;
+    width: 100%;
+    height: 300px;
+}
+
 
 
 /* Video
@@ -377,6 +419,10 @@ p, button, div {
 .wrapper {
   width:100%;
   text-align:center;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .row {
