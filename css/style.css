@@ -114,6 +114,37 @@ p, button, div {
     background-color: black;
 }
 
+.footer-btn {
+    margin: 7%;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px #FFFFFF;
+    /*background-color: black;*/
+    z-index: 1000;
+}
+
+.footer-btn__text {
+    color: #FFFFFF;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.footer-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0px;
+    background-color: #7FC6A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
 
 
 /* Containers
@@ -131,10 +162,11 @@ p, button, div {
     height: 10%;
 }
 
-.footer-container {
+.footer-index-container {
     width: 100%;
     height: 15%;
 }
+
 
 
 /* Home (index.html)
@@ -149,7 +181,7 @@ p, button, div {
 .home-name {
     width: 100%;
     text-align: center;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Jura', sans-serif;
     color: #7FC6A4;
     font-size: x-large;
 }

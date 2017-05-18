@@ -1,7 +1,8 @@
 (function () {
     "use strict";
     
-    // DESIGN - img carousel //
+    /* --- DESIGN - img carousel -- 
+     * ----------------------------------------------------------------------*/
     
     //Images for carousel
     var carouselImgs = [
@@ -53,5 +54,6 @@
         });
     }
     chevronRightClick();
+    
     
 })();
