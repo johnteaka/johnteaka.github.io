@@ -7,15 +7,15 @@
     var carouselImgs = [
         {
             text: 'Flyer',
-            url: '../img/toh-flyers.jpg'
+            url: 'img/toh-flyers.jpg'
         },
         {
             text: 'Reports',
-            url: '../img/toh-reports.jpg'
+            url: 'img/toh-reports.jpg'
         },
         {
             text: 'Misc',
-            url: '../img/toh-misc.jpg'
+            url: 'img/toh-misc.jpg'
         }
     ]
     

@@ -259,8 +259,6 @@ p, button, div {
 /* Design 
 ----------------------------------------------- */
 
-
-
 .slide-third {
     margin:10px;
     width: 31%;
@@ -368,7 +366,9 @@ p, button, div {
 /* Website
 ----------------------------------------------- */
 
-
+.slide-full {
+    width: 90%;
+}
 
 
 /* Video
