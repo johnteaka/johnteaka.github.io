@@ -7,7 +7,7 @@
     //Images for carousel
     var carouselImgs = [
         {
-            text: 'Flyer',
+            text: 'Flyers',
             url: 'img/toh-flyers.jpg'
         },
         {
@@ -41,19 +41,25 @@
     });
     
     // Chevron right is clicked - do this
-    function chevronRightClick() {
+    function chevronRightClicked() {
         $('.carousel-chevron__right').click(function(){
-            for(var i = 0; i < carouselImgs.length; i++){
-                if($('#carousel-img').attr('src').indexOf(carouselImgs[i])){
-                    $('#carousel-img').attr('src', carouselImgs[i + 1].url);
-                    $('#carousel-text').html(carouselImgs[i + 1].text);
-                    break;
-                }
+            if($('#carousel-img').attr('src').indexOf(carouselImgs[0])){
+                $('#carousel-img').attr('src', carouselImgs[1].url);
+                $('#carousel-text').html(carouselImgs[1].text);
             }
-            chevronRightClick();
+            if($('#carousel-img').attr('src').indexOf(carouselImgs[1])){
+                $('#carousel-img').attr('src', carouselImgs[2].url);
+                $('#carousel-text').html(carouselImgs[2].text);
+            }
+            if($('#carousel-img').attr('src').indexOf(carouselImgs[2])){
+                $('#carousel-img').attr('src', carouselImgs[0].url);
+                $('#carousel-text').html(carouselImgs[0].text);
+            }
         });
+        chevronRightClicked();
     }
-    chevronRightClick();
+    
+    chevronRightClicked();
     
     
 })();
